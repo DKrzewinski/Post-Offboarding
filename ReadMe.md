@@ -14,6 +14,8 @@ Secure\savepass.ps1 - Will create the hashed password for the admin account used
 
 ReadMePreShareKey.txt - description of the above savepass.ps1
 
+Run.bat - batch file used to run the post-offboarding script in the scheduled tasks (should be run everyday)
+
 ## Configuration Settings
 
 The script begins with a settings section, where various global variables are defined. These settings include paths for storing audit files, master user data, backups, and secure key locations. Additionally, email configurations such as SMTP server details, recipient addresses, and email body templates are specified. Adjust these settings according to your organization's environment.
