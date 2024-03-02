@@ -1,0 +1,2 @@
+"ObjectId","ObjectType","AccountEnabled","DisplayName","GivenName","ActionToTake","DateToTakeAction","Mail","SupervisorToNotify","ForwardingSmtpAddress","MailNickName","OnPremisesSecurityIdentifier","ProxyAddresses","Surname","UserPrincipalName","UserType"
+"a0f151c7-7e63-4e79-b03c-f693c20e5770","User","FALSE","Jon Doe","Jon","iniNOTIFY","Friday, June 30, 2024 10:11:43 AM","jon.doe@domain.com","","","jon.doe","S-1-5-21-590473618-1378878496-2157886260-1111","System.Collections.Generic.List`1[System.String]","iniNOTIFY","jon.doe@domain.com","Member"

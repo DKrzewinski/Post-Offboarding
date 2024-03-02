@@ -1,0 +1,1 @@
+﻿'yourpassword' | ConvertTo-SecureString -AsPlainText -Force | ConvertFrom-SecureString | Set-Content -Path "\\location\Offboarding\POST-Offboarding\Secure\PreShareKeyEncypted.txt"

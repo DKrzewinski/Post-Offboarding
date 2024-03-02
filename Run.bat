@@ -1,0 +1,1 @@
+powershell -noprofile -executionpolicy bypass -File "\\location\Offboarding\POST-Offboarding\PostOffboarding.ps1"  1>"\\location\Offboarding\POST-Offboarding\Audit\postoffboarding_log.log" 2>&1
