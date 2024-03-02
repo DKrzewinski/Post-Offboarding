@@ -4,6 +4,13 @@
 
 This PowerShell script automates the post-offboarding process for user accounts in a Microsoft 365 (Office 365) environment. The script focuses on handling tasks related to disabling accounts, archiving mailboxes, and notifying relevant stakeholders. It utilizes AzureAD and Exchange Online PowerShell modules for managing user accounts and Exchange Online features.
 
+## Files
+
+PostOffboarding.ps1 - Main post-offboarding file
+Data\OffboardedUsersToProcess.csv - Master data file initially created by the check function (you have to run it manually or change the code), this file is also updated by my offboarding script
+Secure\savepass.ps1 - Will create the hashed password for the admin account used to auto run the script in scheduled tasks
+ReadMePreShareKey.txt - description of the above savepass.ps1
+
 ## Configuration Settings
 
 The script begins with a settings section, where various global variables are defined. These settings include paths for storing audit files, master user data, backups, and secure key locations. Additionally, email configurations such as SMTP server details, recipient addresses, and email body templates are specified. Adjust these settings according to your organization's environment.
