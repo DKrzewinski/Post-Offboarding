@@ -7,8 +7,11 @@ This PowerShell script automates the post-offboarding process for user accounts 
 ## Files
 
 PostOffboarding.ps1 - Main post-offboarding file
+
 Data\OffboardedUsersToProcess.csv - Master data file initially created by the check function (you have to run it manually or change the code), this file is also updated by my offboarding script
+
 Secure\savepass.ps1 - Will create the hashed password for the admin account used to auto run the script in scheduled tasks
+
 ReadMePreShareKey.txt - description of the above savepass.ps1
 
 ## Configuration Settings
